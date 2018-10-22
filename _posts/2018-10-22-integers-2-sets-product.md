@@ -7,7 +7,7 @@ categories: Riddle
 
 Lets take a look at a riddle. 
 
-##Q1: Equal Product of <font size="5">&integers;</font> 1 - 20
+## Q1: Equal Product of <font size="5">&integers;</font> 1 - 20
 
 #### Question
 Your given a bag filled with the integers (<font size="4">&integers;</font>) 1 - 20 inclusive.
@@ -22,8 +22,7 @@ The task is impossible. We can prove this through a proof by contradiction.
 Imagine you **were** able to split up the first 20 Integers into 2 sets such that the product of *Set A* and the product of *Set B* are equal. We can say that the product of *Set A* is equal to <font size="4">𝒏</font> and the product of *Set B* is equalt to <font size="4">𝒎</font>
 
 So we have,
-
-<font size="4">&prod;</font> *Set A* = <font size="4">𝒎</font>
+<br> <font size="4">&prod;</font> *Set A* = <font size="4">𝒎</font>
 <br> <font size="4">&prod;</font> *Set B*  = <font size="4">𝒏</font>
 
 Since we are assuming we are able to complete this task, we can write <font size="4">𝒎</font> = <font size="4">𝒏</font>
@@ -36,8 +35,7 @@ Notice how 19 is a Prime.
 
 This means that 19 is either in *Set A's Factorization* or *Set B's Factorization* but **NOT BOTH**
 
-This means that  *Set A's Factorization* is different from *Set B's Factorization* which means 
-<font size="4">&prod;</font> *Set A* <font size="4">≠</font> <font size="4">&prod;</font> *Set B* <sub>◼︎</sub>
+This means that  *Set A's Factorization* is different from *Set B's Factorization* which means <br><font size="4">&prod;</font> *Set A* <font size="4">≠</font> <font size="4">&prod;</font> *Set B* <sub>◼︎</sub>
 
 ##Q2: Equal Product of <font size="5">&integers;</font> n - n+19
 

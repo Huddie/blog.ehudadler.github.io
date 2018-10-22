@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-22T16:41:05-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Processors Cycle</title><subtitle>This blog is here for me. I learn better when I explain. My hope though, is that this blog will help others as well. </subtitle><entry><title type="html">Integers 2 Sets Product</title><link href="http://localhost:4000/2018/10/22/integers-2-sets-product.html" rel="alternate" type="text/html" title="Integers 2 Sets Product" /><published>2018-10-22T00:00:00-04:00</published><updated>2018-10-22T00:00:00-04:00</updated><id>http://localhost:4000/2018/10/22/integers-2-sets-product</id><content type="html" xml:base="http://localhost:4000/2018/10/22/integers-2-sets-product.html">&lt;p&gt;Lets take a look at a riddle.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-22T16:50:22-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Processors Cycle</title><subtitle>This blog is here for me. I learn better when I explain. My hope though, is that this blog will help others as well. </subtitle><entry><title type="html">Riddle 1: Products of Consecutive Numbers</title><link href="http://localhost:4000/riddle/2018/10/22/integers-2-sets-product.html" rel="alternate" type="text/html" title="Riddle 1: Products of Consecutive Numbers" /><published>2018-10-22T16:43:00-04:00</published><updated>2018-10-22T16:43:00-04:00</updated><id>http://localhost:4000/riddle/2018/10/22/integers-2-sets-product</id><content type="html" xml:base="http://localhost:4000/riddle/2018/10/22/integers-2-sets-product.html">&lt;p&gt;Lets take a look at a riddle.&lt;/p&gt;
 
-&lt;p&gt;##Q1: Equal Product of &lt;font size=&quot;5&quot;&gt;&amp;integers;&lt;/font&gt; 1 - 20&lt;/p&gt;
+&lt;h2 id=&quot;q1-equal-product-of-integers-1---20&quot;&gt;Q1: Equal Product of &lt;font size=&quot;5&quot;&gt;&amp;integers;&lt;/font&gt; 1 - 20&lt;/h2&gt;
 
 &lt;h4 id=&quot;question&quot;&gt;Question&lt;/h4&gt;
 &lt;p&gt;Your given a bag filled with the integers (&lt;font size=&quot;4&quot;&gt;&amp;integers;&lt;/font&gt;) 1 - 20 inclusive.
@@ -13,10 +13,8 @@ Your tasked with spilitting these &lt;strong&gt;Integers&lt;/strong&gt; into &lt
 
 &lt;p&gt;Imagine you &lt;strong&gt;were&lt;/strong&gt; able to split up the first 20 Integers into 2 sets such that the product of &lt;em&gt;Set A&lt;/em&gt; and the product of &lt;em&gt;Set B&lt;/em&gt; are equal. We can say that the product of &lt;em&gt;Set A&lt;/em&gt; is equal to &lt;font size=&quot;4&quot;&gt;𝒏&lt;/font&gt; and the product of &lt;em&gt;Set B&lt;/em&gt; is equalt to &lt;font size=&quot;4&quot;&gt;𝒎&lt;/font&gt;&lt;/p&gt;
 
-&lt;p&gt;So we have,&lt;/p&gt;
-
-&lt;font size=&quot;4&quot;&gt;&amp;prod;&lt;/font&gt;
-&lt;p&gt;&lt;em&gt;Set A&lt;/em&gt; = &lt;font size=&quot;4&quot;&gt;𝒎&lt;/font&gt;
+&lt;p&gt;So we have,
+&lt;br /&gt; &lt;font size=&quot;4&quot;&gt;&amp;prod;&lt;/font&gt; &lt;em&gt;Set A&lt;/em&gt; = &lt;font size=&quot;4&quot;&gt;𝒎&lt;/font&gt;
 &lt;br /&gt; &lt;font size=&quot;4&quot;&gt;&amp;prod;&lt;/font&gt; &lt;em&gt;Set B&lt;/em&gt;  = &lt;font size=&quot;4&quot;&gt;𝒏&lt;/font&gt;&lt;/p&gt;
 
 &lt;p&gt;Since we are assuming we are able to complete this task, we can write &lt;font size=&quot;4&quot;&gt;𝒎&lt;/font&gt; = &lt;font size=&quot;4&quot;&gt;𝒏&lt;/font&gt;&lt;/p&gt;
@@ -29,9 +27,7 @@ Your tasked with spilitting these &lt;strong&gt;Integers&lt;/strong&gt; into &lt
 
 &lt;p&gt;This means that 19 is either in &lt;em&gt;Set A’s Factorization&lt;/em&gt; or &lt;em&gt;Set B’s Factorization&lt;/em&gt; but &lt;strong&gt;NOT BOTH&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;This means that  &lt;em&gt;Set A’s Factorization&lt;/em&gt; is different from &lt;em&gt;Set B’s Factorization&lt;/em&gt; which means&lt;/p&gt;
-&lt;font size=&quot;4&quot;&gt;&amp;prod;&lt;/font&gt;
-&lt;p&gt;&lt;em&gt;Set A&lt;/em&gt; &lt;font size=&quot;4&quot;&gt;≠&lt;/font&gt; &lt;font size=&quot;4&quot;&gt;&amp;prod;&lt;/font&gt; &lt;em&gt;Set B&lt;/em&gt; &lt;sub&gt;◼︎&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;This means that  &lt;em&gt;Set A’s Factorization&lt;/em&gt; is different from &lt;em&gt;Set B’s Factorization&lt;/em&gt; which means &lt;br /&gt;&lt;font size=&quot;4&quot;&gt;&amp;prod;&lt;/font&gt; &lt;em&gt;Set A&lt;/em&gt; &lt;font size=&quot;4&quot;&gt;≠&lt;/font&gt; &lt;font size=&quot;4&quot;&gt;&amp;prod;&lt;/font&gt; &lt;em&gt;Set B&lt;/em&gt; &lt;sub&gt;◼︎&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;##Q2: Equal Product of &lt;font size=&quot;5&quot;&gt;&amp;integers;&lt;/font&gt; n - n+19&lt;/p&gt;
 
