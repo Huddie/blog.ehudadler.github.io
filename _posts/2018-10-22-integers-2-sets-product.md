@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Riddle 1: Products of Consecutive Numbers"
+date:   2018-10-22 16:43:00 -0400
+categories: Riddle
+---
+
 Lets take a look at a riddle. 
 
 ##Q1: Equal Product of <font size="5">&integers;</font> 1 - 20
