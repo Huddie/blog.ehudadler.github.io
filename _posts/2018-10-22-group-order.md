@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Order of an Elements"
+title:  "Order of an Element"
 date:   2018-10-22 23:44:00 -0400
 categories: Number Theory
 ---
