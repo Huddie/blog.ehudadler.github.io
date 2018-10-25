@@ -16,10 +16,10 @@ Lets start with by defining what an order of an element is.
 
 <center><font size="4">𝒏 = 𝐝𝐪 + 𝐫</font> where <font size="4">0 ≤ 𝐫 < 𝐝</font></center>
 <center><font size="4">𝐠<sup>𝐫</sup> = 𝐠<sup>𝒏 - 𝐝𝐪</sup> = (𝐠<sup>𝒏</sup>) (𝐠<sup>𝐝</sup>)<sup>- 𝐪</sup></font></center>
-<center><font size="4">𝒏 = 𝐝𝐪 + 𝐫</font></center>
 <center><font>(𝐠<sup>𝒏</sup>) = 1</font></center> 
 <center><font>(𝐠<sup>𝐝</sup>) = 1</font></center>
 <center><font>𝐠<sup>𝐫</sup> = 1</font></center>
+
 So, <font>𝐫</font> must be <font size="4">0</font>, since <font>𝐫 < 𝐝</font> and <font>𝐝</font> was the smallest.
 
 More coming soon...
