@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Number Thoery: Eulers Theorem"
+title:  "Number Theory: Eulers Theorem"
 date:   2018-10-31 17:43:00 -0400
 categories: Number Theory
 ---
