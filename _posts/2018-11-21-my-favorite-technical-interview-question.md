@@ -190,10 +190,12 @@ We will hold currentSmallest variable, and an array of size n.
 
 ###### Visual
 
+
 | Smallest | 1 | 3 | 2 | 8 | 7 |
 ----|---|---|---|-----|---|---- 
 | 7 |   |  |  |⬆︎ | |
 | Tracker|        |  |  |  | 0 |
+
 We do 8 (The value at the index we are currently look at) - 7 (the current smallest) and we get 1
 
 | Smallest | 1 | 3 | 2 | 8 | 7 |
