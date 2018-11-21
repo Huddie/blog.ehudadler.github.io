@@ -12,7 +12,7 @@ Here's a riddle that I thought about.
 
 Every year, 4 months before the start of a new semester each department in Queens College releases the schedule of when classes are to be held and which professors will be teaching those classes.
 
-You are the chair of the math department. You've assigned all but 2 professors to their classes. The two remaining professors can each any class but they both want to be full time, which means they both need to teach 6 hours a day and atleast one 2 hour class. The problem is that these two professors are married with little kids at home who need to be watched at all times. This means that both professors cannot teach at the same time (Because then nobody would be home). This also means that the moment one of them finishes teaching, they drive home (Luckly they have 2 cars). The contract you signed with them stipulates that you must pay for gas money incured by driving back and forth during school hours.
+You are the chair of the math department. You've assigned all but 2 professors to their classes. The two remaining professors can teach any class and both want to be full time. In order to be considered a full time professor you need to teach 6 hours a day and atleast one 2 hour class. The problem is that these two professors are married with little kids at home who need to be watched at all times. This means that both professors cannot teach at the same time (Because then nobody would be home). This also means that the moment one of them finishes teaching, they drive home (Luckly they have 2 cars). The contract you signed with them stipulates that you must pay for gas money incured by driving back and forth during school hours.
 
 There are:
 
