@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "My Favoirte Interview Question: Max Difference"
+date:   2018-11-21 17:43:00 -0400
+categories: Interview Questions
+---
+
 ## My Favorite Technical Interview Question
 
 I got the idea to write this post from a google engineer, Alex Golec. He wrote a blog post deconstructing an interview question which he was fond of and asked often. Check out his post: [Google Interview Questions Deconstructed: The Knight’s Dialer](https://hackernoon.com/google-interview-questions-deconstructed-the-knights-dialer-f780d516f029).
