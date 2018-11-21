@@ -21,6 +21,7 @@ There are:
 
 that need professors so you'll need to divy those classes up among the 2 remaining professors. The way the schedule worked out this semester each of these classes are back-to-back. 
 
-You want to minimize the amount you pay for gas so you want to schedule each professor for as many back-to-back classes as possible, having them switch shifts at home less often. You'd like to do an even split but the order in which the classes will occur is currently unknown and is decided by the people not in your control. 
+You want to minimize the amount you pay for gas so you want to schedule each professor for as many back-to-back classes as possible, having them switch shifts at home less often. You'd like to do an even split but the order in which the classes will occur is currently unknown and is decided by
+people not in your control. 
 
 If gas costs $1 a trip from the professor's home to college and each trip requires both of the professors to drive one way ($2 total per switch), what is the guarenteed minimum you'll have to pay for gas a day?
