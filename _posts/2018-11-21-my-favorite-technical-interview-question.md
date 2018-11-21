@@ -191,24 +191,34 @@ We will hold currentSmallest variable, and an array of size n.
 ###### Visual
 
 | Smallest | 1 | 3 | 2 | 8 | 7 |
-----|---|---|---|-----|---|----
+----|---|---|---|-----|---|---- 
 | 7 |   |  |  |⬆︎ | |
 | Tracker|        |  |  |  | 0 |
+We do 8 (The value at the index we are currently look at) - 7 (the current smallest) and we get 1
 
 | Smallest | 1 | 3 | 2 | 8 | 7 |
 ----|---|---|---|-----|---|----
 | 7 |   |  | ⬆︎ | | |
 | Tracker|        |  |  |  1 | 0 |
 
+We do 2 (value at current index) - 7 (the current smallest) and we get -5
+
+
 | Smallest | 1 | 3 | 2 | 8 | 7 |
 ----|---|---|---|-----|---|----
 | 2 |   | ⬆︎| |   | |
 | Tracker|        |  | -5 | 1| 0 |
 
+We do 3 (value at current index) - 2 (the current smallest) and we get 1
+
+
 | Smallest | 1 | 3 | 2 | 8 | 7 |
 ----|---|---|---|-----|---|----
 | 2 | ⬆︎ | | | | |
 | Tracker|       -1 | 1 |-5 | 1| 0 |
+
+We do 1 (value at current index) - 2 (the current smallest) and we get -1
+
 
 | Answer | 
 ----|
