@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Riddle 3: Minimizing Gas"
-date:   2018-11-21 17:43:00 -0400
+date:   2018-11-21 18:43:00 -0400
 categories: Riddles
 ---
 
