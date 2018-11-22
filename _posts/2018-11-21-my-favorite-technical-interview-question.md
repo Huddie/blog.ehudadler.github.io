@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Favoirte Interview Question: Max Difference"
+title:  "My Favorite Interview Question: Max Difference"
 date:   2018-11-21 17:43:00 -0400
 categories: Interview Questions
 ---
@@ -35,6 +35,7 @@ Let's draw a basic picture:
 
 | 1 | 3 | 2 | 8 | 7 |
 ----|---|---|---|----
+
 
 We can loop through this list one time, checking the difference between the current index and the next index (We only loop until length - 2 to avoid and out of bounds error). At each index we check if the difference between the current value and the next value is greater than the previous greatest difference we had seen. If it is, store the current index and the new greatest difference. If it is not, move on.
 
@@ -131,6 +132,7 @@ For example, take the array
 
 | 1 | 3 | 2 | 8 | 7 |
 ----|---|---|---|----
+
 
 The difference between index 1 and index 2 is not 2 but -2.
 
