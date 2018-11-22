@@ -33,6 +33,7 @@ Alright, we should have all the information we need.
 
 Let's draw a basic picture:
 
+
 | 1 | 3 | 2 | 8 | 7 |
 ----|---|---|---|----
 
@@ -129,6 +130,7 @@ Okay so Julian wasn't going to let me off yet. He had one final part.
 Up until now we've been using absolute difference. Meaning we substract two numbers and take the absolute value. To answer this next part we must find the greatest difference where difference is defined as A[i] - A[i+j] where j > 0. In otherwords, take the earlier index value and subtract from it the later index value. The key difference here is that we now allow for negative number outcomes.
 
 For example, take the array 
+
 
 | 1 | 3 | 2 | 8 | 7 |
 ----|---|---|---|----
