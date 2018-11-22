@@ -47,11 +47,11 @@ This will look something like:
 	int numbers[] = {1, 3, 2, 8, 7}
 	
 	for(int i = 0; i < sizeof(numbers)/ sizeof(int) - 1; i++) { 
-			currentDifference = abs(numbers[i] - numbers[i+1]);
-			if(currentDifference > greatestDifference) {
-				index = i;
-				greatestDifference = currentDifference;
-			}
+		currentDifference = abs(numbers[i] - numbers[i+1]);
+		if(currentDifference > greatestDifference) {
+			index = i;
+			greatestDifference = currentDifference;
+		}
 	}
 	
 	std::cout << index;
@@ -104,14 +104,14 @@ The code would look something like this:
 	int numbers[] = {1, 3, 2, 8, 7}
 	
 	for(int i = 0; i < sizeof(numbers)/ sizeof(int); i++) { 
-			if(numbers[i] > greatest) {
-				greatestIndex = i;
-				greatest = numbers[i];
-			}
-			if(numbers[i] < smallest) {
-				smallestIndex = i;
-				smallest = numbers[i];
-			}
+		if(numbers[i] > greatest) {
+			greatestIndex = i;
+			greatest = numbers[i];
+		}
+		if(numbers[i] < smallest) {
+			smallestIndex = i;
+			smallest = numbers[i];
+		}
 	}
 	
 	std::cout << greatestIndex < smallestIndex ? greatestIndex : smallestIndex;
@@ -168,17 +168,16 @@ We will hold currentSmallest variable, and an array of size n.
 ###### Code
 
 ```cpp
-
 	int numbers[] = {1, 3, 2, 8, 7};
    	int tracker[5] = {};
    	int length = sizeof(numbers)/ sizeof(int);
    	int currentSmallest = numbers[length - 1];
 
    	for(int i = length - 2; i >= 0; i--) {
-           	tracker[i] = numbers[i] - currentSmallest;
-           	if(numbers[i] < currentSmallest) {
-               	currentSmallest = numbers[i];
-          	}
+   		tracker[i] = numbers[i] - currentSmallest;
+   		if(numbers[i] < currentSmallest) {
+   			currentSmallest = numbers[i];
+   		}
    	}
    	
 	for(int i : tracker) {
