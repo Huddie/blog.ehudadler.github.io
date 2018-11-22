@@ -185,8 +185,8 @@ We will hold currentSmallest variable, and an array of size n.
    	}
    	
 	for(int i : tracker) {
-        std::cout << i << " "; 	// -1 1 -5 1 0
-    }
+   		std::cout << i << " "; 	// -1 1 -5 1 0
+   	}
  
 	int index = findFirstMaxIndex(tracker, length);
 	std::cout << index;
