@@ -28,3 +28,10 @@ Today is the final day to send the budget to the Budget Office. You want to add 
 
 Note: More then you need is anything over the guarenteed minimum, the guarenteed minimum means that although there could be scenarios where you pay less, this is the minimum you'd have to pay in the worst case.
 
+Here is an example schedule:
+
+| 8 am - 9 am | 9 - 10 | 10 - 11 | 11 am - 1 pm | 2 - 3 | 3 - 4| 4 - 6 | 7 - 8 |
+|----|----|----|----|----|----|----|----|----|----|----|----|
+|1hr class|1hr|1hr |2 hour | 1hr |1hr| 2 hour | 1hr |
+
+
