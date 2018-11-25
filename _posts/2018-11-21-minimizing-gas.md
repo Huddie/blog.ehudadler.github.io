@@ -19,11 +19,12 @@ There are:
 * 2x 2 hours classes
 * 8x 1 hour classes
 
-that need professors so you'll need to divy those classes up among the 2 remaining professors. The way the schedule worked out this semester each of these classes are back-to-back. 
+that need professors so you'll need to divy those classes up among the 2 remaining professors. The way the schedule worked out this semester each of these classes are back-to-back with no breaks. 
 
 You want to minimize the amount you pay for gas so you want to schedule each professor for as many back-to-back classes as possible, having them switch shifts at home less often. You'd like to do an even split but the order in which the classes will occur is currently unknown and is decided by
 people not in your control. 
 
-If gas costs $1 a trip from the professor's home to college and each trip requires both of the professors to drive one way ($2 total per switch), what is the guarenteed minimum you'll have to pay for gas a day?
+Today is the final day to send the budget to the Budget Office. You want to add the necessary gas money, $1 a trip from the professor's home to college and each trip requires both of the professors to drive one way ($2 total per switch), to the budget but don't want to request more than necessary. On the other hand you don't want to request less than necessary because then the gas money will be coming out of your pocket. How much money should you write down per day so that you won't have to pay out of your pocket but you also wont be asking for more then you need.
 
-Note: Guarenteed minimum means that although there could be scenarios where you pay less, this is the minimum you'd have to pay in the worst case.
+Note: More then you need is anything over the guarenteed minimum, the guarenteed minimum means that although there could be scenarios where you pay less, this is the minimum you'd have to pay in the worst case.
+
