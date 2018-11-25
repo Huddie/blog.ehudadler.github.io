@@ -30,8 +30,8 @@ Note: More then you need is anything over the guarenteed minimum, the guarenteed
 
 Here is an example schedule:
 
-| 7 am - 8 am | 8  - 9 | 9 - 10 | 10 - 11 | 11 am - 1 pm | 2 - 3 | 3 - 4| 4 - 6 | 7 - 8 | 8 - 9 |
+|7am - 8am|8  - 9|9 - 10|10 - 11|11am - 1pm|2 - 3|3 - 4|4 - 6|7 - 8|8 - 9|
 |----|----|----|----|----|----|----|----|----|----|
-|1hr class |1hr |1hr|1hr |2 hour | 1hr |1hr| 2 hour | 1hr | 1hr |
+|1hr class|1hr|1hr|1hr|2 hour|1hr|1hr|2 hour|1hr|1hr|
 
 
