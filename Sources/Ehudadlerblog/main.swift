@@ -14,13 +14,14 @@ struct Ehudadlerblog: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://blog.ehudadler.com")!
-    var name = "Today I Learn't"
-    var description = "Each day I post one thing that I learn't that day."
+    var url = URL(string: "https://your-website-url.com")!
+    var name = "Ehudadlerblog"
+    var description = "A description of Ehudadlerblog"
     var language: Language { .english }
     var imagePath: Path? { nil }
 }
 
+// This will generate your website using the built-in Foundation theme:
 try Ehudadlerblog().publish(using: [
   .deploy(using: .gitHub("Huddie/blog.ehudadler.github.io"))
 ])
