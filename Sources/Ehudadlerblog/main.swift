@@ -21,5 +21,6 @@ struct Ehudadlerblog: Website {
     var imagePath: Path? { nil }
 }
 
-// This will generate your website using the built-in Foundation theme:
-try Ehudadlerblog().publish(withTheme: .foundation)
+try Ehudadlerblog().publish(using: [
+  .deploy(using: .gitHub("Huddie/blog.ehudadler.github.io"))
+])
