@@ -4,6 +4,9 @@
 *  MIT license, see LICENSE file for details
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +35,7 @@ header {
 header .wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: left;
+    text-align: center;
 }
 
 header a {
@@ -40,7 +43,8 @@ header a {
 }
 
 header .site-name {
-    font-size: 1.5em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5em;
     color: #000;
     font-weight: bold;
 }
@@ -51,11 +55,15 @@ nav {
 
 nav li {
     display: inline-block;
-    margin-right: 7px;
+    margin-right: 20px;
+    margin-left: 20px;
     line-height: 1.5em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
 }
 
 nav li a.selected {
+    font-family: 'Dosis', sans-serif;
     text-decoration: underline;
 }
 
@@ -81,9 +89,21 @@ a {
 }
 
 .grid-container {
-  display: grid;
-  justify-content: space-around;
-  grid-template-columns: auto auto auto auto;
+    display: grid;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+}
+
+.series-label {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.series-img {
+    max-width: 300px;
 }
 
 .item-list > li {
@@ -130,6 +150,7 @@ a {
 }
 
 .content {
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 40px;
 }
 
