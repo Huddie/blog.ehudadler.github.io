@@ -21,7 +21,7 @@ body {
 }
 
 .wrapper {
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
@@ -90,11 +90,13 @@ a {
 
 .grid-container {
     display: grid;
+    grid-gap: 50px;
     text-decoration: none;
     list-style-type: none;
-    justify-content: space-around;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
 }
+
+.series-article{}
 
 .series-label {
     font-family: 'Dosis', sans-serif;
@@ -103,7 +105,7 @@ a {
 }
 
 .series-img {
-    max-width: 30%;
+    max-width: 100%;
 }
 
 .item-list > li {
