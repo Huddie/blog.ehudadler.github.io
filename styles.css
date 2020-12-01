@@ -13,10 +13,26 @@
     box-sizing: border-box;
 }
 
+blockquote {
+    font-style: italic;
+    font-family: 'Dosis', sans-serif;
+
+    padding: 5px;
+    padding-left: 15px;
+    border-left: 3px solid #00FFFF;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+blockquote p {
+    position: relative;
+}
+
 body {
     background: #fff;
     color: #000;
-    font-family: Helvetica, Arial;
+    font-family: 'Dosis', sans-serif;
     text-align: center;
 }
 
