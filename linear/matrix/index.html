@@ -80,8 +80,8 @@
     <span class="n">matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="p">;</span>
 <span class="p">}</span>
 </div></code></pre><p>Now we must create the <code>CommaInit</code> object and return it. One thing we know is that at this point the <code>CommaInit</code> class is about to take over and we still somehow need a way of altering the <code>matrix_</code>. To achieve this we will pass the address og our <code>matrix_</code> into the <code>CommaInit</code> constructor. This will allow <code>CommaInit</code> to mutate our <code>matrix_</code>.</p><pre><code><div class="highlight"><span></span><span class="n">CommaInit</span> <span class="k">operator</span><span class="o">&lt;&lt;</span><span class="p">(</span><span class="n">Type</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
-    <span class="n">matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="p">;</span>
-    <span class="k">return</span> <span class="nf">CommaInit</span><span class="p">(</span><span class="o">&amp;</span><span class="n">matrix</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span> 
+    <span class="n">matrix_</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nf">CommaInit</span><span class="p">(</span><span class="o">&amp;</span><span class="n">matrix_</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span> 
     <span class="c1">// The 1 here denotes that we are upto the 1th index of our matrix.</span>
     <span class="c1">// We already ingested the 0th index on the line before.</span>
 <span class="p">}</span>

@@ -225,7 +225,8 @@ footer {
     padding: 15px 25px 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: #272822; color: #f8f8f2
+    background: #272822; color: #f8f8f2;
+    white-space: pre-wrap;
 }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
