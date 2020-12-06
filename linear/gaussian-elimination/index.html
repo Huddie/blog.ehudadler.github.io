@@ -109,7 +109,7 @@ $$</body></html><p>There is a more persice and correct definition to row-echelon
     <span class="p">};</span>
 <span class="p">}</span>
 </div></code></pre><p>No real difference in size, but our new <code>_ModifyRowBy</code> function now allows us to write our "Subtract row by a multiple of another row" function as follows:</p><pre><code><div class="highlight"><span></span><span class="kt">void</span> <span class="nf">_SubtractRowByRowMultiple</span><span class="p">(</span><span class="k">const</span> <span class="kt">uint32_t</span> <span class="o">&amp;</span><span class="n">row_to_modify</span><span class="p">,</span> <span class="k">const</span> <span class="kt">uint32_t</span> <span class="o">&amp;</span><span class="n">other_row</span><span class="p">,</span> <span class="k">const</span> <span class="n">Type</span> <span class="o">&amp;</span><span class="n">k</span><span class="p">)</span> <span class="p">{</span>
-    <span class="n">_ModifyRowBy</span><span class="p">(</span><span class="n">row_to_modify</span><span class="p">,</span> <span class="p">[</span><span class="k">this</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">k</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">other_row</span><span class="p">](</span><span class="k">const</span> <span class="kt">uint32_t</span> <span class="o">&amp;</span><span class="n">col</span><span class="p">,</span> <span class="k">const</span> <span class="n">Type</span> <span class="o">&amp;</span><span class="n">old_value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">_ModifyRowBy</span><span class="p">(</span><span class="n">row_to_modify</span><span class="p">,</span> <span class="p">[</span><span class="k">this</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">other_row</span><span class="p">](</span><span class="k">const</span> <span class="kt">uint32_t</span> <span class="o">&amp;</span><span class="n">col</span><span class="p">,</span> <span class="k">const</span> <span class="n">Type</span> <span class="o">&amp;</span><span class="n">old_value</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">return</span> <span class="n">old_value</span> <span class="o">-</span> <span class="p">(</span><span class="n">matrix_</span><span class="p">[</span><span class="n">other_row</span><span class="p">][</span><span class="n">col</span><span class="p">]</span> <span class="o">*</span> <span class="n">k</span><span class="p">);</span>
     <span class="p">});</span>
 <span class="p">}</span>
@@ -171,10 +171,10 @@ $$</body></html><p>There is a more persice and correct definition to row-echelon
 $$
 $$
 \begin{bmatrix}
-1 & 8.3 & 3.3 & 93.1 & 1.1\\
--0 & 1 & -0.25 & -8.25 & -0.75\\
-0 & 0 & 1 & -0.191424 & 0.415008\\
--0 & -0 & -0 & 1 & 0.5\\
+1 & 0 & 33 & 931 & 11\\
+0 & 0 & 1 & 33 & 3\\
+-0 & -0 & -0 & 1 & 0.0778813\\
 -0 & -0 & -0 & -0 & 1\\
+0 & 0 & 0 & 0 & 0\\
 \end{bmatrix}
 $$</body></html><p>Heyyy! Exactly what we hoped for (minus the minus signs before the 0's)!</p><p>Alright, I think this is a good place to stop for today. Today we implemented Guassian Elimination in our Matrix class. Next up is Gauss-Jordan Elimination. That is only a minor modifcation to Guassian Elimination so hopefully we breeze through that!</p><p>Until then,</p><p>-- Ehud</p></div><span>Tagged with: </span><ul class="tag-list"><li><a href="/tags/article">article</a></li><li><a href="/tags/linear-algebra">linear algebra</a></li><li><a href="/tags/math">math</a></li><li><a href="/tags/cpp">cpp</a></li><li><a href="/tags/matrix">matrix</a></li></ul></article></div><footer><p>Generated using <a href="https://github.com/johnsundell/publish">Publish</a></p><p><a href="/feed.rss">RSS feed</a></p></footer></body></html>

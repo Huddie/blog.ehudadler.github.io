@@ -31,6 +31,10 @@ blockquote {
     margin-bottom: 10px;
 }
 
+.spacer {
+    height: 50px;
+}
+
 blockquote p {
     position: relative;
 }
