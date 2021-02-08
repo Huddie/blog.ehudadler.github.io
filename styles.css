@@ -25,10 +25,14 @@ blockquote {
 
     padding: 5px;
     padding-left: 15px;
-    border-left: 3px solid #00FFFF;
+    border-left: 3px solid #78C0A8;
 
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+strong {
+    color: #78C0A8;
 }
 
 tldr {
